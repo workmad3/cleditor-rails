@@ -1,6 +1,8 @@
 # Cleditor::Rails
 
-TODO: Write a gem description
+
+Integrates CLEditor into Rails 3.1+ assets pipeline
+Url: http://premiumsoftware.net/cleditor/
 
 ## Installation
 
@@ -18,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1.) Run
+
+    $ rails g cleditor:install
+
+2.) Add this to your application.js
+    
+    $(document).ready(function() {
+        $(".editable").cleditor();
+    });
+
+Assuming that your textareas have .editable class.
+More configuration options here: http://premiumsoftware.net/cleditor/docs/GettingStarted.html#usage
 
 ## Contributing
 
