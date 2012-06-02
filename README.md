@@ -1,7 +1,8 @@
 # Cleditor::Rails
 
 
-Integrates CLEditor into Rails 3.1+ assets pipeline
+Integrates CLEditor into Rails 3.1+ asset pipeline
+
 Url: http://premiumsoftware.net/cleditor/
 
 ## Installation
@@ -31,6 +32,7 @@ Or install it yourself as:
     });
 
 Assuming that your textareas have .editable class.
+
 More configuration options here: http://premiumsoftware.net/cleditor/docs/GettingStarted.html#usage
 
 ## Contributing
