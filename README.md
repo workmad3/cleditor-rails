@@ -28,10 +28,13 @@ Or install it yourself as:
 2.) Add this to your application.js
     
     $(document).ready(function() {
-        $(".editable").cleditor();
+        $("textarea").cleditor();
     });
 
-Assuming that your textareas have .editable class.
+3.) In production.rb
+  
+    config.assets.compile = true
+
 
 More configuration options here: http://premiumsoftware.net/cleditor/docs/GettingStarted.html#usage
 
