@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "cleditor-rails"
   gem.require_paths = ["lib"]
   gem.version       = Cleditor::Rails::VERSION
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", ">= 3.1"
 end
